@@ -3,9 +3,8 @@
 const Child = (props) => {
     console.log(props)
     return (
-        <div>
-            Child.js
-            {props.item}
+        <div className="name-box">
+            {props.name}
         </div>
     )
 }
